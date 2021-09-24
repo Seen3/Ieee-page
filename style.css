@@ -1,0 +1,63 @@
+#flag{
+    margin: 0;
+    width: 120px;
+    left: 20%;
+    position: relative;
+}
+header div{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    color: rgb(201, 68, 20);
+    text-shadow: rgb(0, 0, 0);
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 700;
+    font-size: 80%;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px #000000;
+}
+body{
+    background: rgb(29,170,28);
+background: linear-gradient(90deg, rgba(29,170,28,1) 0%, rgba(223,127,24,1) 40%, rgba(255,255,255,1) 51%, rgba(223,127,24,1) 62%, rgba(29,170,28,1) 99%);
+}
+header{
+    background-color:rgb(76, 165, 95);
+    border: 4px dotted gold;
+}
+header p{
+    margin: 0;
+    left: 25%;
+    width: 10%;
+    position: relative;
+    align-items: center;
+}
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-size: 4rem;
+    text-shadow: 2px 2px #ff0000;
+    padding: 0;
+    margin: 0;
+}
+article img{
+    width: 60%;
+    border-radius: 30%;
+    border: 5px double gold;
+}
+
+article{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+article div p{
+    background-color: rgba(0, 0, 0, 0.778);
+    width: 60%;
+    color: cornsilk;
+    font-family: monospace;
+    padding: 13px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
