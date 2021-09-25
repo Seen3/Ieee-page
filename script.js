@@ -7,3 +7,8 @@ im.addEventListener("mouseout",()=>{
     im.src="https://scontent-del1-1.xx.fbcdn.net/v/t31.18172-8/10498220_680138548728068_484863159246656692_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=3Ll6DJkEeScAX_MjfZn&_nc_ht=scontent-del1-1.xx&oh=b590bf55d5045e66aa243abd2b69bcaa&oe=61720557";
 })
 
+let song=new Audio("https://shareguru.io/images/aladeen_madafaka_MP3_the_dictator..mp3")
+document.getElementById('flag').addEventListener('click',()=>{
+    song.play();
+})
+alert("Do Click the Flag :)");
