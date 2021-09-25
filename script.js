@@ -1,4 +1,5 @@
 let im=document.getElementById("ala");
+let songPlay=()=>song.play();
 im.addEventListener("mouseover",()=>{
     im.src="https://s.yimg.com/ny/api/res/1.2/e38BfgfTxVmxive04rNypw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM3OS42NjEwMTY5NDkxNTI1NQ--/https://s.yimg.com/uu/api/res/1.2/8neFXo7PkPGwV3X5eEGXgQ--~B/aD0zNTA7dz01OTA7YXBwaWQ9eXRhY2h5b24-/http://media.zenfs.com/en-SG/homerun/thepoppingpost.com/e4d56a6668b8ea48755eeeec91422a78";
 })
@@ -8,7 +9,7 @@ im.addEventListener("mouseout",()=>{
 })
 
 let song=new Audio("https://shareguru.io/images/aladeen_madafaka_MP3_the_dictator..mp3")
-document.getElementById('flag').addEventListener('click',()=>{
-    song.play();
-})
+document.getElementById('flag').addEventListener('click',songPlay)
+document.getElementById('flag').addEventListener('touchstart',songPlay)
+
 alert("Do Click the Flag :)");
