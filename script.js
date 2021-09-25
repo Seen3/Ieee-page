@@ -12,4 +12,4 @@ let song=new Audio("https://shareguru.io/images/aladeen_madafaka_MP3_the_dictato
 document.getElementById('flag').addEventListener('click',songPlay)
 document.getElementById('flag').addEventListener('touchstart',songPlay)
 
-alert("Do Click the Flag :)");
+alert("Do Explore the Flag :)");
