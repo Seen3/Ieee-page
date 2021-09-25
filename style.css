@@ -4,6 +4,10 @@
     left: 20%;
     position: relative;
 }
+#flag:hover{
+    box-shadow: 2px 2px rgb(30, 139, 2),-2px -2px rgb(30, 139, 2);
+
+}
 header div{
     width: 30%;
     height: 60px;
@@ -16,9 +20,15 @@ header div{
     letter-spacing: 2px;
     text-shadow: 1px 1px #000000;
 }
+marquee{
+    position: absolute;
+}
+marquee img{
+    width:10%;
+}
 body{
     background: rgb(29,170,28);
-background: linear-gradient(90deg, rgba(29,170,28,1) 0%, rgba(223,127,24,1) 40%, rgba(255,255,255,1) 51%, rgba(223,127,24,1) 62%, rgba(29,170,28,1) 99%);
+background: linear-gradient(70deg, rgba(29,170,28,1) 0%, rgba(223,127,24,1) 40%, rgba(255,255,255,1) 51%, rgba(223,127,24,1) 62%, rgba(29,170,28,1) 99%);
 }
 header{
     background-color:rgb(76, 165, 95);
